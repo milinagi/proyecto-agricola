@@ -158,7 +158,7 @@ def CropAndYield_pie():
     labels = data.index
     values = data.values
 
-    fig, ax = plt.subplots(figsize=(7, 5))
+    fig, ax = plt.subplots(figsize=(8, 5))
     wedges, texts, autotexts = ax.pie(
         values, labels=labels, colors=colores,
         autopct="%1.1f%%", startangle=90,
