@@ -13,8 +13,14 @@
   <a href="#"><img src="https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas&logoColor=white" alt="Pandas"></a>
   <a href="#"><img src="https://img.shields.io/badge/Matplotlib-3.8%2B-11557c?logo=matplotlib&logoColor=white" alt="Matplotlib"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT"></a>
-  <img src="https://img.shields.io/github/last-commit/milinagi/proyecto-agricola?label=last%20commit" alt="last-commit">
-  <img src="https://img.shields.io/github/languages/top/milinagi/proyecto-agricola" alt="top language">
+
+  <!-- Badges del repo -->
+  <a href="https://github.com/milinagi/proyecto-agricola/commits">
+    <img src="https://img.shields.io/github/last-commit/milinagi/proyecto-agricola?label=last%20commit" alt="last-commit">
+  </a>
+  <a href="https://github.com/milinagi/proyecto-agricola">
+    <img src="https://img.shields.io/github/languages/top/milinagi/proyecto-agricola" alt="top language">
+  </a>
 </p>
 
 <p align="center">
