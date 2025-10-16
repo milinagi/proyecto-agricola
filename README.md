@@ -72,6 +72,7 @@ python main.py
 └─ README.md
 ```
 </details open>
+
 - El repo incluye `.gitignore` para ignorar `outputs/`. Sube 2–3 imágenes “curadas” a `docs/` y enlázalas aquí.
 
 ## 🛠 Instalación
@@ -96,7 +97,7 @@ Si no quieres autosave, comenta `enable_autosave(...)` en `main()` o usa `savefi
 <b>Flujo</b>
 ```
 flowchart LR
-    A[Cargar CSV] --> B[Perfilado: info/describe]
+    A [Cargar CSV] --> B[Perfilado: info/describe]
     B --> C[Nulos y Duplicados]
     C --> D[Outliers IQR]
     D --> E[Validación de rangos]
