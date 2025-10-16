@@ -41,12 +41,12 @@
   <a href="#resultados">Resultados</a> ·
   <a href="#metodologia">Metodología</a> ·
   <a href="#faq">FAQ</a> ·
-  <a href="#licencia">Licencia</a>
+  <a href="#licencia">Licencia</a>  
 </p>
 
 ---
 
-## 🚀 Demo rápida
+<h2 id="demo">🚀 Demo rápida</h2>
 
 ```bash
 python -m venv .venv
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## ✨ Características
+<h2 id="caracteristicas">✨ Características</h2>
 
 - **Perfilado de calidad:** tamaño, `info()`, `describe()`, **nulos**, **duplicados**.
 - **Detección de outliers (IQR)** en todas las numéricas.
@@ -71,7 +71,8 @@ python main.py
 - **Guardado automático de figuras** (`utils_savefig.py`), sin tocar las funciones de plotting.
 
 <details open>
-<summary><b>Estructura del proyecto</b></summary>
+  
+<h2 id="estructura">🧱 Estructura del proyecto</h2>
 
 ```text
 .
@@ -90,13 +91,15 @@ python main.py
 
 - El repo incluye `.gitignore` para ignorar `outputs/`. Sube 2–3 imágenes “curadas” a `docs/` y enlázalas aquí.
 
-## 🛠 Instalación
+<h2 id="instalacion">🛠 Instalación</h2>
+
 ```
 pip install -r requirements.txt
 ```
 - Recomendado: usar entorno virtual.
 
-## ▶️ Uso
+<h2 id="uso">▶️ Uso</h2>
+
 1. Asegúrate de tener `agricultura_dataset.csv` en la raíz (o edita `CSV_PATH` en `main.py`).
 2. Ejecuta:
 ```
@@ -105,10 +108,12 @@ python main.py
 3. Las imágenes se guardarán en `outputs/` como `fig_1_<timestamp>.png`, `fig_2_<timestamp>.png`, etc.
 Si no quieres autosave, comenta `enable_autosave(...)` en `main()` o usa `savefig("nombre", fig=fig)` manualmente.
 
-## 🧪 Resultados
+<h2 id="resultados">🧪 Resultados</h2>
+
 <p align="center"> <img src="docs/barras_top10.png" alt="Top 10 rendimiento" width="46%"/> <img src="docs/donut_temperatura.png" alt="Donut temperatura" width="46%"/> </p> <p align="center"> <img src="docs/dashboard.png" alt="Mini dashboard" width="95%"/> </p>
 
-## 🔬 Metodología
+<h2 id="metodologia">🔬 Metodología</h2>
+
 <b>Flujo</b>
 ```
 flowchart LR
@@ -159,7 +164,8 @@ enable_autosave(dirpath="outputs", prefix="fig", dpi=150)
 ```
 </details>
 
-## ❓ FAQ
+<h2 id="faq">❓ FAQ</h2>
+
 
 <b>¿Debo subir</b> `outputs/`<b>?</b>
 No. Está ignorado por git. Para el README, incluye 2–3 imágenes en `docs/`.
@@ -170,7 +176,7 @@ Si es pequeño/no sensible, inclúyelo. Si no, documenta su origen o usa un plac
 <b>¿Puedo usar notebook?</b>
 Sí. Tu flujo cabe en un `.ipynb` o puedes ejecutar `main.py` desde VS Code.
 
-## 🧾 Licencia
+<h2 id="licencia">🧾 Licencia</h2>
 
 Este proyecto se distribuye bajo licencia MIT. Ver LICENSE.
 
