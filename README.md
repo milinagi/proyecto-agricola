@@ -33,15 +33,15 @@
 
 
 <p align="center">
-  <a href="#-demo-rápida">Demo</a> ·
-  <a href="#-características">Características</a> ·
-  <a href="#-estructura-del-proyecto">Estructura</a> ·
-  <a href="#-instalación">Instalación</a> ·
-  <a href="#-uso">Uso</a> ·
-  <a href="#-resultados">Resultados</a> ·
-  <a href="#-metodología">Metodología</a> ·
-  <a href="#-faq">FAQ</a> ·
-  <a href="#-licencia">Licencia</a>
+  <a href="#demo-rapida">Demo</a> ·
+  <a href="#caracteristicas">Características</a> ·
+  <a href="#estructura-del-proyecto">Estructura</a> ·
+  <a href="#instalacion">Instalación</a> ·
+  <a href="#uso">Uso</a> ·
+  <a href="#resultados">Resultados</a> ·
+  <a href="#metodologia">Metodología</a> ·
+  <a href="#faq">FAQ</a> ·
+  <a href="#licencia">Licencia</a>
 </p>
 
 ---
