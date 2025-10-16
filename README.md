@@ -1,4 +1,3 @@
-<!-- Banner (opcional) -->
 <p align="center">
   <img src="docs/banner.png" alt="Proyecto Agrícola" width="85%" />
 </p>
@@ -82,7 +81,6 @@ pip install -r requirements.txt
 - Recomendado: usar entorno virtual.
 
 ## ▶️ Uso
-
 1. Asegúrate de tener `agricultura_dataset.csv` en la raíz (o edita `CSV_PATH` en `main.py`).
 2. Ejecuta:
 ```
