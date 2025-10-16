@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Proyecto Agrícola" width="85%" />
+  <img src="docs/banner.png" alt="Proyecto Agrícola" width="100%" />
 </p>
 
 <h1 align="center">🌱 Proyecto Agrícola — Calidad y Visualización de Datos</h1>
