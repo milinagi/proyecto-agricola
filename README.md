@@ -33,9 +33,9 @@
 
 
 <p align="center">
-  <a href="#demo-rapida">Demo</a> ·
+  <a href="#demo">Demo</a> ·
   <a href="#caracteristicas">Características</a> ·
-  <a href="#estructura-del-proyecto">Estructura</a> ·
+  <a href="#estructura">Estructura</a> ·
   <a href="#instalacion">Instalación</a> ·
   <a href="#uso">Uso</a> ·
   <a href="#resultados">Resultados</a> ·
@@ -43,6 +43,7 @@
   <a href="#faq">FAQ</a> ·
   <a href="#licencia">Licencia</a>  
 </p>
+
 
 ---
 
@@ -70,9 +71,10 @@ python main.py
   - **Mini-dashboard 3-en-1:** Profit por cultivo, dispersión Agua/ha vs Rendimiento (con recta), boxplot por Tipo de Suelo.
 - **Guardado automático de figuras** (`utils_savefig.py`), sin tocar las funciones de plotting.
 
-<details open>
-  
 <h2 id="estructura">🧱 Estructura del proyecto</h2>
+
+<details open>
+  <summary><b>Ver árbol del repo</b></summary>
 
 ```text
 .
@@ -87,7 +89,7 @@ python main.py
 │   └─ dashboard.png
 └─ README.md
 ```
-</details open>
+</details>
 
 - El repo incluye `.gitignore` para ignorar `outputs/`. Sube 2–3 imágenes “curadas” a `docs/` y enlázalas aquí.
 
